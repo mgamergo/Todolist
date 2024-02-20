@@ -1,39 +1,40 @@
-@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&family=Mulish:ital,wght@0,200..1000&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
 
 .todos-bg-container {
-    background-color: #f9fbfe;
+    background-image: linear-gradient(to bottom, #bbd0ff, #c8b6ff,#e7c6ff);
     height: 100vh;
 }
 
 .todos-heading {
     text-align: center;
-    font-family: "Roboto";
+    font-family: "Josefin Sans";
     font-size: 46px;
     font-weight: 500;
     margin-top: 20px;
     margin-bottom: 20px;
+    color:#22223b;
 }
 
 .create-task-heading {
-    font-family: "Roboto";
+    font-family: "Josefin Sans";
     font-size: 32px;
     font-weight: 700;
 }
 
 .create-task-heading-subpart {
-    font-family: "Roboto";
+    font-family: "Josefin Sans";
     font-size: 32px;
     font-weight: 500;
 }
 
 .todo-items-heading {
-    font-family: "Roboto";
+    font-family: "Josefin Sans";
     font-size: 32px;
     font-weight: 700;
 }
 
 .todo-items-heading-subpart {
-    font-family: "Roboto";
+    font-family: "Josefin Sans";
     font-size: 32px;
     font-weight: 500;
 }
@@ -48,7 +49,7 @@
 }
 
 .todo-user-input {
-    background-color: white;
+    background-color: #ffecff;
     width: 100%;
     border-style: solid;
     border-width: 1px;
@@ -59,22 +60,22 @@
 }
 
 .button {
-    color: white;
-    background-color: #4c63b6;
-    font-family: "Roboto";
+    color: #fff;
+    background-color: #22223b;
+    font-family: "Josefin Sans";
     font-size: 18px;
-    border-width: 0;
+    border-width: 1px;
     border-radius: 4px;
     margin-top: 20px;
     margin-bottom: 50px;
-    padding-top: 5px;
+    padding-top: 7px;
     padding-bottom: 5px;
     padding-right: 20px;
     padding-left: 20px;
 }
 
 .label-container {
-    background-color: #e6f6ff;
+    background-color: #ffecff;
     width: 100%;
     border-style: solid;
     border-width: 5px;
@@ -93,7 +94,7 @@
 }
 
 .checkbox-label {
-    font-family: "Roboto";
+    font-family: "Josefin Sans";
     font-size: 16px;
     font-weight: 400;
     width: 82%;
@@ -117,3 +118,14 @@
 .checked {
     text-decoration: line-through;
 }
+
+.button-animation {
+    transition: background-color .4s ease-in-out, color .4s ease-in-out, border-color .4s ease-in-out;
+}
+
+.button-animation:hover {
+    background-color:white;
+    color:#151618;
+    border-color: #151618;
+}
+
